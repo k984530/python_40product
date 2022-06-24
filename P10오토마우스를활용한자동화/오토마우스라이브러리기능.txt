@@ -1,0 +1,13 @@
+pyautogui.position() 마우스의 좌표를 입력 받습니다
+pyautogui.moveTo(x, y) x,y의 좌표로 이동합니다. 절대 좌표 입니다.
+pyautogui.moveTo(x, y, 시간) x, y의 좌표로 지정된 시간동안 이동합니다. 절대 좌표 입니다.
+pyautogui.moveRel(x, y) 현재 마우스 위치로부터 x, y픽셀만큼 이동합니다.
+pyautogui.click() 현재 마우스 커서 위치에 마우스를 클릭합니다.
+pyautogui.doubleclick() 현재 마우스 커서 위치에 마우스를 더블클릭합니다.
+pyautogui.click((x, y)) x, y의 위치에 마우스를 클릭합니다.
+pyautogui.click(x = x, y = y) x, y의 위치에 마우스를 클릭합니다.
+pyautogui.rightClick() 현재 마우스 커서 위치에 마우스를 우클릭 합니다
+pyautogui.dragTo(x = x, y = y, duration = time) 현재 마우스 위치부터 x, y 좌표까지 time초 동안 드래그 합니다
+pyautogui.typewrite("ABC", interval = time) time초 동안 ABC를 입력합니다
+pyautogui.hotkey("ctrl","v") 두 개의 키를 동시에 누릅니다
+pyautogui.screenshot('path', region = (x, y, width, Height)) 부분캡쳐를 합니다 path경로에 저장 합니다
